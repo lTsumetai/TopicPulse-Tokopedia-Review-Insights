@@ -1,6 +1,4 @@
 streamlit
-tensorflow==2.20.0
-tf-keras
 numpy
 Pillow
 requests
@@ -8,3 +6,5 @@ gdown
 pandas
 matplotlib
 altair
+sqlalchemy
+psycopg2-binary
