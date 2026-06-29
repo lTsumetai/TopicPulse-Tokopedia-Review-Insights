@@ -11,8 +11,7 @@ def run():
     def load_data(path):
         return pd.read_csv(path)
     
-    base_dir = os.path.join('data')
-    df = load_data(os.path.join(base_dir, "PRDECT-ID Dataset.csv"))
+    df = load_data(os.path.join("data/PRDECT-ID Dataset.csv"))
     st.dataframe(df)
     
     st.subheader('Distribution Class')
