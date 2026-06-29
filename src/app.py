@@ -363,7 +363,5 @@ st.caption(f"Showing {len(explorer_df):,} of {len(df):,} filtered reviews.")
 # --------------------------------------------------------------------------------------
 st.divider()
 st.caption(
-  "future notes, edit this later. for now ima play hunt showdown. im stressed as fuck."
-
-  "oh and btw, most of the code im using examples from streamlit. so yeah im that stupid. thanks"
+  "footer testing"
 )
