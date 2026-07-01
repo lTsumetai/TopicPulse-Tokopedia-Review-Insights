@@ -1,0 +1,180 @@
+{
+  "model_name": "paraphrase-multilingual-MiniLM-L12-v2",
+  "topics": [
+    {
+      "topic": 0,
+      "theme": "Material & comfort",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 1,
+      "theme": "Fast delivery",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 2,
+      "theme": "Good / works / authentic product",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 3,
+      "theme": "Responsive, friendly seller",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 4,
+      "theme": "Safe & neat packaging",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 5,
+      "theme": "Thanks & general praise",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 6,
+      "theme": "Affordable / good value",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 7,
+      "theme": "Good / works / authentic product",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 8,
+      "theme": "Safe & neat packaging",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 9,
+      "theme": "Responsive, friendly seller",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 10,
+      "theme": "Safe & neat packaging",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 11,
+      "theme": "Thanks & general praise",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 12,
+      "theme": "Repeat order / as ordered",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 13,
+      "theme": "Thanks & general praise",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 14,
+      "theme": "Good / works / authentic product",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 15,
+      "theme": "Good / works / authentic product",
+      "sentiment": "Positive"
+    },
+    {
+      "topic": 0,
+      "theme": "Item not as described",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 1,
+      "theme": "Unresponsive seller",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 2,
+      "theme": "Damaged packaging",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 3,
+      "theme": "Item not as described",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 4,
+      "theme": "Defective / does not work",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 5,
+      "theme": "Bad smell or taste",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 6,
+      "theme": "Poor quality / flimsy",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 7,
+      "theme": "Damaged packaging",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 8,
+      "theme": "Slow delivery",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 9,
+      "theme": "General disappointment",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 10,
+      "theme": "Broken / damaged item",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 11,
+      "theme": "Poor quality / flimsy",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 12,
+      "theme": "General disappointment",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 13,
+      "theme": "Item not as described",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 14,
+      "theme": "Defective / does not work",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 15,
+      "theme": "Poor quality / flimsy",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 16,
+      "theme": "Defective / does not work",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 17,
+      "theme": "Poor quality / flimsy",
+      "sentiment": "Negative"
+    },
+    {
+      "topic": 18,
+      "theme": "Item not as described",
+      "sentiment": "Negative"
+    }
+  ]
+}
