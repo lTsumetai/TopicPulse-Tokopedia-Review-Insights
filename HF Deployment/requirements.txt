@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy<2
+altair
+plotly<6  # Streamlit 1.31's bundled plotly.js can't render Plotly 6.x figures (blank charts)
+sentence-transformers
+sqlalchemy
+psycopg2-binary

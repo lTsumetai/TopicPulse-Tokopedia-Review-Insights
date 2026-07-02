@@ -1,0 +1,13 @@
+[theme]
+primaryColor = "#2e7d32"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f3f6f4"
+textColor = "#1b1b1b"
+font = "sans serif"
+
+[server]
+headless = true
+# Project lives in a OneDrive folder; OneDrive's background syncing keeps
+# touching files, which made Streamlit's watcher auto-rerun every second
+# (the "blurry loading screen" flicker). Turn the watcher off.
+fileWatcherType = "none"
