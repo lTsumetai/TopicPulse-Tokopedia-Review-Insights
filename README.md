@@ -8,12 +8,12 @@ what customers actually praise, and what they actually complain about.
 
 > Hacktiv8 Data Science Bootcamp — Final Project (FTDS-040-HCK, Group 001)
 
---
+
 
 ## About
 This Project turns raw tokopedia product reviews into structured, exploreable insight. rather than collections of plain positive/negative sentiment score, each review is matched to one of several data-driven **themes** or topics (e.g. *packaging*, *fast deliverey*, *unresponsive seller*, *item not as describe*) discovered through topic modelling. 
 
-Built based on **[PRDECT-ID](https://github.com/crush7/PRDECT-ID)** dataset and with text normalization dataset **[Kamus Alay](https://github.com/nasalsabila/kamus-alay) colloquial Indonesian Lexicon
+Built based on **[PRDECT-ID](https://github.com/crush7/PRDECT-ID)** dataset and with text normalization dataset **[Kamus Alay](https://github.com/nasalsabila/kamus-alay)** colloquial Indonesian Lexicon
 
 ## Features
 
