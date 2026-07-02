@@ -560,7 +560,7 @@ st.divider()
 # --------------------------------------------------------------------------------------
 # Section 10: Review explorer
 # --------------------------------------------------------------------------------------
-# using dataframe to search for some reaviews
+# using dataframe to search for some reviews
 st.header("Review explorer")
 st.caption("Pick a theme or search a keyword to read the actual reviews behind the numbers.")
 
