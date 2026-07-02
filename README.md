@@ -1,7 +1,7 @@
 # TopicPulse - Tokopedia Review Insights
 
 **NLP topic modeling on Indonesian Tokopedia product reviews.**
-Understand not just *whether* a review is good or bad, but the *theme* behind it —
+Understand not just *whether* a review is good or bad, but the *theme* behind it. 
 what customers actually praise, and what they actually complain about.
 
 🔗 **Live app:** [Hugging Face](https://huggingface.co/spaces/dahutapea/Topic-Modeling-Tokopedia-Reviews)
