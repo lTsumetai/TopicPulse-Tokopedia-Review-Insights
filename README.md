@@ -38,6 +38,17 @@ Built based on **[PRDECT-ID](https://github.com/crush7/PRDECT-ID)** dataset and 
 4. **Dashboard**: `src/eda.py` reads the exported artifacts and renders the full analytics
    experience with Plotly.
 
+## Tech Stack
+| Layer | Tools |
+|---|---|
+| Language | Python |
+| App / UI | Streamlit |
+| NLP / Modeling | BERTopic,...|
+| Data | pandas, numpy |
+| Visualization | Plotly, Altair, Matplotlib |
+| Database | Supabase, psycopg2 |
+| Deployment | Docker, Docker Compose, Hugging Face Spaces, Streamlit |
+
 ## Project structure
 
 ```
