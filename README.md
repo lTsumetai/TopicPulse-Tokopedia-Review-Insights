@@ -31,4 +31,45 @@ Built based on **[PRDECT-ID](https://github.com/crush7/PRDECT-ID)** dataset and 
 - **Theme Prediction** Model Inferencing. paste any Indonesian product review and get its predicted theme (praise or complaint)
 - **Review submission** form for submitting a new review, wired to supabase database.
 
-## How it works 
+## Project Pipeline 
+1. **Topic modeling** (`Topic Modeling - DS Role.ipynb`): 
+2. **Artifact export**: 
+3. **Prediction at inference time**: 
+4. **Dashboard**: `src/eda.py` reads the exported artifacts and renders the full analytics
+   experience with Plotly.
+
+## Project structure
+
+```
+.
+├── src/
+│   ├── app.py              # Page router (Home / EDA / ...)
+│   ├── eda.py               # EDA dashboard
+│   ├── prediction.py        # Theme prediction page
+│   └── utils/
+│       ├── db_connection.py # Supabase connection helper
+│       └── ...
+├── artifacts/               # Exported model outputs used by the app at runtime
+│   ├── dashboard_data.csv
+│   ├── reviews_with_themes.csv
+│   ├── themes_positive.csv / themes_negative.csv
+│   └── topics_positive.csv / topics_negative.csv
+├── models/                   # Saved BERTopic / LDA models 
+├── data/                     # Raw source data (PRDECT-ID, Kamus Alay lexicon)
+├── HF Deployment/            
+├── Topic Modeling - DS Role.ipynb   
+├── csv_reads.ipynb
+├── Dockerfile
+├── docker-compose.yaml
+└── requirements.txt
+```
+
+## Team
+This project was built by a three-person team. covering the Data Engineer -> Data Scientist -> Data analyst Pipeline:
+- **Data Engineer [Derida Falahian](https://github.com/Derida21)** — data ingestion & pipeline
+- **Data Scientist [Daffa Hutapea](https://github.com/daphutapea)** — topic modeling (BERTopic/LDA/K-Means) and artifact export
+- **Data Analyst [Fauzi Maulana](https://github.com/lTsumetai)** — EDA dashboard, prediction page, and review submission UI (this repo's Streamlit app)
+
+## Reference
+- [PRDECT-ID Dataset](https://github.com/crush7/PRDECT-ID) — Product Reviews Dataset for Emotions Classification Tasks (Indonesian)
+- [Kamus Alay](https://github.com/nasalsabila/kamus-alay) — colloquial Indonesian lexicon for text normalization
