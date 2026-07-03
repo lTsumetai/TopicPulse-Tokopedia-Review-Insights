@@ -1,5 +1,7 @@
 # TopicPulse - Tokopedia Review Insights
 
+<img width="1536" height="1024" alt="FTDS-040-HCK-Group001-logo (1)" src="https://github.com/user-attachments/assets/cd4af1df-5de1-464f-9322-50d245ea7b44" />
+
 **NLP topic modeling on Indonesian Tokopedia product reviews.**
 Understand not just *whether* a review is good or bad, but the *theme* behind it. 
 what customers actually praise, and what they actually complain about.
@@ -32,11 +34,11 @@ Built based on **[PRDECT-ID](https://github.com/crush7/PRDECT-ID)** dataset and 
 - **Review submission** form for submitting a new review, wired to supabase database.
 
 ## Project Pipeline 
-1. **Topic modeling** (`Topic Modeling - DS Role.ipynb`): 
-2. **Artifact export**: 
+1. **Topic modeling** (`Topic Modeling - DS Role.ipynb`): Reviews are embedded with a multillingual sentence-transformer model and clustered with BERTopic to discover themes or topics seperately for positive and negative reviews.
+2. **Artifact export**: the train topics, theme labes, and dashboard dataset are exported to `artifacts/` as csv files. to read and to analyze the trained results.
 3. **Prediction at inference time**: 
 4. **Dashboard**: `src/eda.py` reads the exported artifacts and renders the full analytics
-   experience with Plotly.
+   experience based on dashboard dataset csv on `artifacts/` with Plotly.
 
 ## Tech Stack
 | Layer | Tools |
