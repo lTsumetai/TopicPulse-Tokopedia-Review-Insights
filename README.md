@@ -1,6 +1,6 @@
 # TopicPulse - Tokopedia Review Insights
 
-<img width="1536" height="1024" alt="FTDS-040-HCK-Group001-logo (1)" src="https://github.com/user-attachments/assets/cd4af1df-5de1-464f-9322-50d245ea7b44" />
+<img width="1536" height="1024" alt="FTDS-040-HCK-Group001-logo" src="https://github.com/user-attachments/assets/ad725b02-ab26-4501-9efa-c98f43680eeb" />
 
 **NLP topic modeling on Indonesian Tokopedia product reviews.**
 Understand not just *whether* a review is good or bad, but the *theme* behind it. 
