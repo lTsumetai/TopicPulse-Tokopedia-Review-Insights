@@ -37,7 +37,7 @@ Built based on **[PRDECT-ID](https://github.com/crush7/PRDECT-ID)** dataset and 
 ## Project Pipeline 
 1. **Topic modeling** (`Topic Modeling - DS Role.ipynb`): Reviews are embedded with a multillingual sentence-transformer model and clustered with BERTopic to discover themes or topics seperately for positive and negative reviews.
 2. **Artifact export**: the train topics, theme labes, and dashboard dataset are exported to `artifacts/` as csv files. to read and to analyze the trained results.
-3. **Prediction at inference time**: 
+3. **Prediction at inference time**: new review text is cleaned, embedded with `paraphrase-multilingual-MiniLM-L12-v2`, and cosine-matched against the exported topic vectors to find its closest theme.
 4. **Dashboard**: `src/eda.py` reads the exported artifacts and renders the full analytics
    experience based on dashboard dataset csv on `artifacts/` with Plotly.
 
@@ -46,7 +46,7 @@ Built based on **[PRDECT-ID](https://github.com/crush7/PRDECT-ID)** dataset and 
 |---|---|
 | Language | Python |
 | App / UI | Streamlit |
-| NLP / Modeling | BERTopic,...|
+| NLP / Modeling | BERTopic,sentence-transformers, UMAP, HDBSCAN, Gensim (LDA), scikit-learn (K-Means)|
 | Data | pandas, numpy |
 | Visualization | Plotly, Altair, Matplotlib |
 | Database | Supabase, psycopg2 |
